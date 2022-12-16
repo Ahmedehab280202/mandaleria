@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.Navbar {
+  height: 98px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.LoginText {
+height: 102px;
+align-self: stretch;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 10px;
+}
+
+.UserInputSection {
+width: 441px;
+height: 63px;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0;
+}
+
+.SubmitSection {
+width: 173px;
+height: 86px;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0;
+}
+
+.Btn {
+width: 127px;
+height: 55px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 10px;
+border-radius: 10px;
+background-color: rgba(178, 124, 112, 0.4);
+}
+
+.Orders {
+width: 85px;
+height: 33px;
+flex-grow: 0;
+font-family: Exo;
+font-size: 25px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.25px;
+text-align: left;
+color: #5b5b5b;
+}
+
+.Products {
+width: 112px;
+height: 33px;
+flex-grow: 0;
+font-family: Exo;
+font-size: 25px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.25px;
+text-align: left;
+color: #5b5b5b;
+}
+
+.Contact {
+width: 96px;
+height: 33px;
+flex-grow: 0;
+font-family: Exo;
+font-size: 25px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.25px;
+text-align: left;
+color: #5b5b5b;
+}
+
+.Home {
+width: 73px;
+height: 33px;
+flex-grow: 0;
+font-family: Exo;
+font-size: 25px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.25px;
+text-align: left;
+color: #5b5b5b;
+}
+
+.textframe {
+align-self: stretch;
+flex-grow: 1;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 6px 10px;
+}
+
+.HomeLink {
+width: 112px;
+height: 30px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: stretch;
+gap: 8px;
+padding: 0;
+}
+
+.ContactLink {
+width: 137px;
+height: 30px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+gap: 8px;
+padding: 0;
+}
+
+.ProductsLink {
+width: 156px;
+height: 30px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+gap: 8px;
+padding: 0;
+}
+
+.OrdersLink {
+width: 156px;
+height: 30px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: stretch;
+gap: 8px;
+padding: 0;
+}
+
+.Navigation {
+width: 773px;
+height: 50px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 35px;
+padding: 10px 7px;
+}
+
+.Sign-Up {
+width: 204px;
+flex-grow: 1;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 5px 41px;
+border-radius: 25px;
+background-color: rgba(178, 124, 112, 0.4);
+}
+
+.LOGIN {
+width: 82px;
+height: 40px;
+flex-grow: 0;
+font-family: Exo;
+font-size: 30px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.5px;
+text-align: left;
+color: #5b5b5b;
+}
+.Product-profile {
+width: 736px;
+width: 736px;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0;
+background-color: #fff;
+}
+.Main {
+align-self: stretch;
+flex-grow: 1;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: stretch;
+gap: 60px;
+padding: 10px;
+}
+.MainImageDisplay {
+height: 469px;
+align-self: stretch;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 10px;
+}
+.ProductImages {
+width: 744px;
+align-self: stretch;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: stretch;
+gap: 10px;
+padding: 10px;
+}
+.ImagesGallery {
+align-self: stretch;
+flex-grow: 1;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: stretch;
+gap: 60px;
+padding: 10px 30px;
+}
+.ProductDescription {
+width: 627px;
+align-self: stretch;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 50px 10px;
+}
+.Titlet {
+align-self: stretch;
+font-family: ABeeZee;
+font-size: 25px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #18191a;
+}
+.ProductDescription label {
+width: auto;
+height: 27px;
+flex-grow: 0;
+font-family: Abel;
+font-size: 21px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #b6796e;
+}
+.Value {
+width: 98px;
+height: 27px;
+flex-grow: 0;
+font-family: Abel;
+font-size: 21px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #242424;
+}
+
+.mainImg{
+  width: auto;
+  height: 90%;
+  flex-grow: 0;
+  margin: auto;
+}
+.Frame-88 {
+width: 270px;
+height: 55px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 10px;
+border-radius: 16px;
+background-color: rgba(178, 124, 112, 0.4);
+}
+.Text{
+font-size: 25px;
+}
+.Frame-13 {
+width: 148px;
+height: 32px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 42px;
+border-radius: 10px;
+padding: 4px 15px;
+background-color: rgba(178, 124, 112, 0.4);
+}
+.\- {
+width: 11px;
+height: 49px;
+flex-grow: 0;
+font-family: OpenSans;
+font-size: 32px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #000;
+}span {
+width: 12px;
+height: 27px;
+flex-grow: 0;
+font-family: OpenSans;
+font-size: 20px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #000;
+}
+.gallery{
+width: 97px;
+height: 140px;
+align-self: stretch;
+flex-grow: 0;
+}
