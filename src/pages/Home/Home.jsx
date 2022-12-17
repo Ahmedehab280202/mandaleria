@@ -26,9 +26,7 @@ const Home = () => {
       </div>
 
       <footer>
-        <span class="Check-our-instagram-page ">
-          Check our instagram page
-        </span>
+          <Btn text='Check Our Instagram Page' link='https://instagram.com/mandaleria_eg?igshid=MDE2OWE1N2Q=' />
       </footer>
       </div>
     </>
