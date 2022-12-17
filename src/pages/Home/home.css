@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      .Login {
+        width: 100%;
+        height: 800px;
+        padding: 0 0 193px;
+        background-color: #fff;
+      }
+
+      .Navbar {
+        height: 98px;
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background-color: #fff;
+      }
+      .foot {
+        height: 98px;
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background-color: #fff;
+      }
+
+      .LoginText {
+        height: 102px;
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .UserInputSection {
+        width: 441px;
+        height: 63px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+      }
+
+      .SubmitSection {
+        width: 173px;
+        height: 86px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+
+      .Btn {
+        width: 127px;
+        height: 55px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(178, 124, 112, 0.4);
+      }
+
+      .Orders {
+        width: 85px;
+        height: 33px;
+        flex-grow: 0;
+        font-family: Exo;
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.25px;
+        text-align: left;
+        color: #5b5b5b;
+      }
+
+      .Products {
+        width: 112px;
+        height: 33px;
+        flex-grow: 0;
+        font-family: Exo;
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.25px;
+        text-align: left;
+        color: #5b5b5b;
+      }
+
+      .Contact {
+        width: 96px;
+        height: 33px;
+        flex-grow: 0;
+        font-family: Exo;
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.25px;
+        text-align: left;
+        color: #5b5b5b;
+      }
+
+      .Home {
+        width: 73px;
+        height: 33px;
+        flex-grow: 0;
+        font-family: Exo;
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.25px;
+        text-align: left;
+        color: #5b5b5b;
+      }
+
+      .textframe {
+        align-self: stretch;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 6px 10px;
+      }
+
+      .HomeLink {
+        width: 112px;
+        height: 30px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        gap: 8px;
+        padding: 0;
+      }
+
+      .ContactLink {
+        width: 137px;
+        height: 30px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 8px;
+        padding: 0;
+      }
+
+      .ProductsLink {
+        width: 156px;
+        height: 30px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 8px;
+        padding: 0;
+      }
+
+      .OrdersLink {
+        width: 156px;
+        height: 30px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        gap: 8px;
+        padding: 0;
+      }
+
+      .Navigation {
+        width: 773px;
+        height: 50px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        padding: 10px 7px;
+      }
+
+      .Sign-Up {
+        width: 204px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 5px 41px;
+        border-radius: 25px;
+        background-color: rgba(178, 124, 112, 0.4);
+      }
+
+      .LOGIN {
+        width: 82px;
+        height: 40px;
+        flex-grow: 0;
+        font-family: Exo;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: #5b5b5b;
+      }
+.body {
+  height: 556px;
+  align-self: stretch;
+  flex-grow: 0;
+  padding: 29px 124px 72.7px 131px;
+}
+.body2 {
+  height: 548.3px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  padding: 0 50px;
+}
+.Welcome-to-Mandelleria-_frame {
+  width: 617px;
+  height: 75px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0 12px;
+}
+.details-Home {
+  width: 617px;
+  height: 292px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+  padding: 0;
+}
+.Welcome-to-Mandelleria {
+  width: 593px;
+  height: 75px;
+  flex-grow: 0;
+  font-family: IMFELLDoublePica;
+  font-size: 60px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.Want-to-check-our-products- {
+  width: 333px;
+  height: 29px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.Shop-now-frame {
+  width: 182px;
+  height: 29px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0 21px;
+  background-color: rgba(178, 124, 112, 0.4);
+}
+.SHOP-NOW {
+  width: 140px;
+  height: 29px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.Frame-89 {
+  width: 448.7px;
+  height: 474.3px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+.Rectangle-25 {
+  width: 428.7px;
+  height: 454.3px;
+  flex-grow: 0;
+  padding: 26px 42px 28.3px 9.7px;
+  transform: rotate(-9.22deg);
+  border-radius: 12px;
+  box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.5);
+}
+.photo {
+  width: 377px;
+  height: 400px;
+  flex-grow: 0;
+  box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.5);
+  background-color: #b27c70;
+}
+.Check-our-instagram-page {
+  width: 400px;
+  height: 40px;
+  flex-grow: 0;
+  font-family: Exo;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #000;
+}
+footer {
+  width: 468px;
+  height: 60px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
